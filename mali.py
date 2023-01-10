@@ -9,8 +9,8 @@ from email.message import EmailMessage
 EMAIL_ADDRESS = os.environ.get('GMAIL')
 EMAIL_PASS = os.environ.get('GmailPass')
 
-EBRYAN = 'bryan.koch@gmx.ch'
-EDAVE = 'david.sanchez@hotmail.ch'
+EBRYAN = 'friend.name@gmx.ch'
+EDAVE = 'prename.name@hotmail.ch'
 
 contacts = [EBRYAN,EDAVE]
 
@@ -21,7 +21,7 @@ msg['From'] = EMAIL_ADDRESS
 msg['To'] = contacts
 msg.set_content('This message was generated from the IT department of Pay2Win')
 
-with open('/media/Dave/Volume/Users/david/Desktop/Pay2Win/pcs/Lgoo.jpeg', 'rb') as f:
+with open('/media/Dave/Volume/Users/usr/Desktop/Pay2Win/pcs/Lgoo.jpeg', 'rb') as f:
     file_data = f.read()
     file_type = imghdr.what(f.name)
 
