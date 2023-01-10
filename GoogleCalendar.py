@@ -53,7 +53,7 @@ def main():
 
     event = {
         'summary': 'summ',
-        'location': 'your mother',
+        'location': 'your location',
         'description': 'TestEventtwo',
         'start':{
             'dateTime': '2020-10-02T09:00:00',
@@ -64,7 +64,7 @@ def main():
             'timeZone': 'America/Los_Angeles',
         },
         'attendees': [
-            {'email': 'david.sanchez@hotmail.com'},
+            {'email': 'prename.name@hotmail.com'},
         ],
         'reminders':{
             'useDefault': False,
